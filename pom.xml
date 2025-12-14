@@ -44,6 +44,7 @@
                 <artifactId>dependency-check-maven</artifactId>
                 <version>12.1.0</version>
                 <configuration>
+                    <format>ALL</format>
                     <ossIndexServerId>ossindex</ossIndexServerId>
                     <failBuildOnCVSS>8.0</failBuildOnCVSS>
                 </configuration>
